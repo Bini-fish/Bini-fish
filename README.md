@@ -38,7 +38,7 @@ I am a technical professional specialized in building **end-to-end data systems*
 
 ### 🤝 Leadership & Community
 - **Peakcraft Club:** Serving as President and Data Science Domain Leader at Hawassa University.
-- **Ethioware EdTech:** Co-Founder, leading data initiatives that have reached thousands of learners.
+- **Ethioware EdTech:** Data Engineer, leading data initiatives that have reached thousands of learners.
 - **Mentorship:** Developed a 19-lesson Data Science curriculum with an 87% student retention rate.
 
 ---
