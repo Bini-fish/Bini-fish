@@ -15,7 +15,6 @@ I am a technical professional specialized in building **end-to-end data systems*
 
 ### 📊 Professional Impact & Stats
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Bini-fish&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Biniyam's Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bini-fish&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
 
