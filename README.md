@@ -1,53 +1,73 @@
-# Hi, I'm Biniyam Fisseha 👋 
-### Data Analyst | Python Engineer | Data Science Mentor
+# Biniyam Fisseha
 
-I am a technical professional specialized in building **end-to-end data systems**. My work ranges from architecting **GCP Medallion pipelines** for real-time analytics to deploying **Generative AI** models. I focus on turning complex data into actionable business strategies with high-performance SQL and Python.
+**I build data pipelines and ML systems that turn raw data into decisions — on GCP, in Python, in SQL.**
 
----
+Currently: AI/ML Engineering Intern at iCog Labs (East Africa's leading AI R&D company) · leading AI/data development at Ethioware EdTech (7,000+ learners) · open to freelance/contract data & AI engineering work.
 
-### 🛠️ Technical Ecosystem
-- **Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=postgresql&logoColor=white) ![Amharic](https://img.shields.io/badge/Amharic-Native-blue) ![English](https://img.shields.io/badge/English-Fluent-blue)
-- **Data Engineering:** Google Cloud Platform (BigQuery, Cloud Functions, GCS), ETL/ELT Pipelines, Medallion Architecture.
-- **Machine Learning:** PyTorch (GANs), Scikit-learn (Regression, Gradient Boosting), BigQuery ML (K-means).
-- **Visualization:** ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=power-bi&logoColor=black) ![Looker](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat&logo=google-cloud&logoColor=white) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+📍 Addis Ababa, Ethiopia &nbsp;|&nbsp; 📧 [biniyamf.code@gmail.com](mailto:biniyamf.code@gmail.com) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/biniyam-fisseha-2a51b6279/) &nbsp;|&nbsp; 🌐 [Portfolio](https://biniyam.pro.et/)
 
 ---
 
-### 📊 Professional Impact & Stats
+## What I do
+
+I design end-to-end data systems — from ingestion to insight. My core stack:
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat&logo=googlebigquery&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+
+**Specialties:** Medallion-architecture ETL/ELT on GCP (Cloud Functions, GCS, BigQuery) · applied ML (classification, clustering, gradient boosting, GANs) · RAG/knowledge-graph systems · dashboarding in Power BI and Looker Studio.
+
+---
+
+## Projects worth your time
+
+### 🔹 [Real-Time GCP Pipeline — Household Welfare Analytics](https://github.com/Bini-fish/Household-Data-Analysis-Real-Time-GCP-Pipeline)
+**Problem:** Governments and NGOs need to spot at-risk households fast — not weeks after the data is collected.
+**Build:** Event-driven pipeline (GCS → Cloud Functions → BigQuery) feeding a BigQuery ML K-means model that segments households by income/expenditure patterns.
+**Result:** Clustered 60,000+ households into 5 socio-economic tiers with a full refresh under 10 minutes, cutting data-to-insight time 80%.
+Live dashboard and video walkthrough linked in the repo.
+`GCP` `BigQuery ML` `Cloud Functions` `Python`
+
+### 🔹 [Maji Ndogo Water Crisis — End-to-End Analysis & Public Reporting](https://github.com/Bini-fish/Maji_Ndogo_Water_Crisis)
+**Problem:** A national water crisis needed a costed, prioritized intervention plan leadership could act on — not another spreadsheet.
+**Build:** Advanced SQL (MySQL) cleaning and prioritization pipeline feeding a multi-star Power BI model with DAX measures across 5 provinces.
+**Result:** Turned 60,000+ raw records into a prioritized 25,000-row improvement backlog and two published, public-facing dashboards (national + provincial).
+`SQL` `Python` `Power BI` `DAX` `Data Modeling`
+
+### 🔹 [Knowledge Graph RAG with LlamaIndex](https://github.com/Bini-fish/Knowledge_Graph_RAG_With_LlamaIndex)
+**Problem:** Standard vector search misses how entities relate to each other — which matters for financial and market analysis.
+**Build:** RAG pipeline combining Neo4j knowledge-graph traversal with LlamaIndex vector retrieval; GPT-4o generates the final natural-language report.
+**Result:** A working graph-augmented RAG system, deployable against your own document set.
+`Python` `Neo4j` `LlamaIndex` `RAG`
+
+### 🔹 [Handwritten Digit Generator (Conditional GAN)](https://github.com/Bini-fish/mnist-generator-app)
+**Problem:** Wanted a deployed, interactive proof of generative modeling — not just a training notebook.
+**Build:** Conditional GAN (generator + discriminator) trained from scratch on MNIST in PyTorch, deployed with Streamlit.
+**Result:** [Live app](https://mnist-generator-app-nokjarnuyxqxhywalprhkh.streamlit.app/) — pick any digit 0–9, get 5 unique generated images on demand.
+`PyTorch` `GANs` `Streamlit`
+
+---
+
+## GitHub activity
+
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bini-fish&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Bini-fish&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bini-fish&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165"/>
 </p>
 
 ---
 
-### 🚀 Featured Projects
-#### 🔹 [Real-Time GCP Pipeline: Household Welfare Analytics](https://github.com/Bini-fish/Household-Data-Analysis-Real-Time-GCP-Pipeline)
-- **Architecture:** Engineered a serverless ETL pipeline using GCS and Cloud Functions.
-- **Impact:** Automated identification of high-risk poverty clusters using **BigQuery ML (K-means)**, reducing insight delivery time by 80%.
+## Beyond the code
 
-#### 🔹 [Maji Ndogo Water Crisis Intervention](https://github.com/Bini-fish/Maji-Ndogo-Data-Validation-Pipeline)
-- **Scale:** Processed and validated **60,000+ records** of complex infrastructure data using SQL and Python.
-- **Result:** Designed a multi-star schema and interactive Power BI dashboards to drive government-level decision-making.
-
-#### 🔹 [Generative AI: Conditional GANs (cGAN)](https://github.com/Bini-fish/cGAN-Digit-Generator)
-- **Tech:** Built a dual neural network (Generator/Discriminator) using **PyTorch** to generate synthetic handwritten digits.
-- **Deployment:** Packaged as a real-time web application using Streamlit.
+- **iCog Labs** — AI/ML Engineering Intern, working on autonomous logic-rule discovery from hypergraph data
+- **PCIC, Hawassa University (800+ members)** — President & AI/ML Curriculum Lead; designed a 19-lesson curriculum training 50+ developers, 87% retention
+- **Ethioware EdTech** — Generative AI Developer & Lead Data/ML Engineer, serving 7,000+ learners
+- 🏃 4th place, Lake Hawassa Half Marathon · 📸 [Photography](https://instagram.com/bini.s_shots)
 
 ---
 
-### 🤝 Leadership & Community
-- **Peakcraft Club:** Serving as President and Data Science Domain Leader at Hawassa University.
-- **Ethioware EdTech:** Data Engineer, leading data initiatives that have reached thousands of learners.
-- **Mentorship:** Developed a 19-lesson Data Science curriculum with an 87% student retention rate.
-
----
-
-### 🌱 Personal
-- 🏃‍♂️ **Endurance:** 4th place finisher in the Lake Hawassa Half Marathon.
-- 📸 **Perspective:** Capturing light and shadow via [Bini's Shots](https://instagram.com/bini.s_shots).
-
----
-
-### 📫 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/biniyam-fisseha-2a51b6279/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ethioware.org/biniyam)
+### Have a data problem worth solving? [Let's talk →](mailto:biniyamf.code@gmail.com)
