@@ -1,73 +1,54 @@
-# Biniyam Fisseha
+# Hi, I'm Biniyam Fisseha
 
-**I build data pipelines and ML systems that turn raw data into decisions — on GCP, in Python, in SQL.**
+**Data Engineer · GCP, BigQuery, Python, SQL.** I build data pipelines that keep running on messy, real-world data, and the ML on top of them.
 
-Currently: AI/ML Engineering Intern at iCog Labs (East Africa's leading AI R&D company) · leading AI/data development at Ethioware EdTech (7,000+ learners) · open to freelance/contract data & AI engineering work.
+Final-year Information Systems student at Hawassa University (graduating July 2027), based in Hawassa and Addis Ababa, Ethiopia.
 
-📍 Addis Ababa, Ethiopia &nbsp;|&nbsp; 📧 [biniyamf.code@gmail.com](mailto:biniyamf.code@gmail.com) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/biniyam-fisseha-2a51b6279/) &nbsp;|&nbsp; 🌐 [Portfolio](https://biniyam.pro.et/)
+[Portfolio](https://biniyam.pro.et/) · [LinkedIn](https://www.linkedin.com/in/biniyam-fisseha-2a51b6279/) · [Email](mailto:biniyamf.code@gmail.com)
 
----
+## Now
 
-## What I do
+- **Lead Data Engineer, [Ethioware EdTech](https://ethioware.org).** Building a GCP Medallion pipeline (GCS → Cloud Functions → BigQuery) that runs at 99%+ reliability. Cut ingestion failures from ~15% to under 1% on low-bandwidth connections.
+- **AgriData Connect.** Satellite-based irrigation verification for smallholder lending (Earth Engine, Sentinel-1/2, CHIRPS). Top 20 of 370+ in the ATI AgTech Innovation Challenge; pitching at the finals in October.
+- **Recently: AI/ML Engineering Intern, [iCog Labs](https://icog-labs.com)** (Jun–Aug 2026). Worked on the Hyperon AGI Pattern Miner: moved C++/MeTTa components to the MORK rewrite engine and validated a probability function against scientific tools.
 
-I design end-to-end data systems — from ingestion to insight. My core stack:
+## Highlights
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat&logo=googlebigquery&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+- 1st place, Leyu Data Collection Competition (Sep 2026): speech data in Afaan Oromo, Tigrigna, Amharic and Sidaamu Afoo
+- 1st place, Wellness Hackathon 2026, ALX Ethiopia × Kuriftu (418 participants)
+- 1st place, Cursor Hackathon Addis Ababa 2025
+- As president of [PCIC](https://pcic.tech), Hawassa University's informatics tech community, grew membership 337.7% in a year
 
-**Specialties:** Medallion-architecture ETL/ELT on GCP (Cloud Functions, GCS, BigQuery) · applied ML (classification, clustering, gradient boosting, GANs) · RAG/knowledge-graph systems · dashboarding in Power BI and Looker Studio.
+## Selected work
 
----
+| Project | What it does | Stack |
+|---|---|---|
+| [Leyu deployment](https://github.com/Bini-fish/leyu-deployment) | Contributor infrastructure that won the Leyu speech-data competition. I set up and ran the full open-source Leyu stack on Cloud Run and pushed fixes back upstream. | Flutter · NestJS · Cloud Run |
+| [Knowledge Graph RAG](https://github.com/Bini-fish/Knowledge_Graph_RAG_With_LlamaIndex) | Financial news turned into a Neo4j knowledge graph. Graph traversal plus vector retrieval gives GPT-4o connected context. | Neo4j · LlamaIndex · GPT-4o |
+| [Video engagement prediction](https://github.com/Bini-fish/video-engagement-prediction) | Predicts whether an educational video is watched past 30%. Best cross-validated AUC is 0.891 (gradient boosting). | scikit-learn · GridSearchCV |
+| [Maji Ndogo water crisis](https://github.com/Bini-fish/Maji_Ndogo_Water_Crisis) | ALX project: SQL cleaning and prioritisation feeding public Power BI dashboards on water access. | MySQL · Power BI · DAX |
+| [Olist e-commerce pipeline](https://github.com/Bini-fish/Olist-E-Commerce-Analytics-End-to-End-Pipeline) | End-to-end analytics pipeline on the Brazilian Olist e-commerce dataset. | Python · SQL |
+| [Conditional GAN digits](https://github.com/Bini-fish/mnist-generator-app) | Conditional GAN trained from scratch in PyTorch. [Live demo](https://mnist-generator-app-nokjarnuyxqxhywalprhkh.streamlit.app/) | PyTorch · Streamlit |
 
-## Projects worth your time
+### Private repos (code walkthrough on request)
 
-### 🔹 [Real-Time GCP Pipeline — Household Welfare Analytics](https://github.com/Bini-fish/Household-Data-Analysis-Real-Time-GCP-Pipeline)
-**Problem:** Governments and NGOs need to spot at-risk households fast — not weeks after the data is collected.
-**Build:** Event-driven pipeline (GCS → Cloud Functions → BigQuery) feeding a BigQuery ML K-means model that segments households by income/expenditure patterns.
-**Result:** Clustered 60,000+ households into 5 socio-economic tiers with a full refresh under 10 minutes, cutting data-to-insight time 80%.
-Live dashboard and video walkthrough linked in the repo.
-`GCP` `BigQuery ML` `Cloud Functions` `Python`
+| Project | What it does | Stack |
+|---|---|---|
+| **AgriData Connect** | Irrigation Reliability Index that scores plot-level irrigation from Sentinel-2 NDVI and Sentinel-1 radar, using CHIRPS rainfall as the counterfactual. I built the ETL, backend and Earth Engine connector. ATI top 20 of 370+. | Python · Earth Engine · Supabase |
+| **Ethioware Medallion pipeline** | Bronze/Silver/Gold reporting pipeline for an EdTech programme. Runs at 99%+ reliability, with hashed learner IDs so no personal data reaches analytics. | GCS · Cloud Functions · BigQuery |
+| **Well Circle** | Wellness marketplace and accountability community inside Telegram, with bookings, Telebirr/M-Pesa payments and row-level security. 1st place, Wellness Hackathon 2026. | Telegram Mini App · FastAPI · Supabase |
+| **[pcic.tech](https://pcic.tech)** | Internal management system for PCIC, the university tech community. I led it from requirements to deployment. | Web · PostgreSQL |
 
-### 🔹 [Maji Ndogo Water Crisis — End-to-End Analysis & Public Reporting](https://github.com/Bini-fish/Maji_Ndogo_Water_Crisis)
-**Problem:** A national water crisis needed a costed, prioritized intervention plan leadership could act on — not another spreadsheet.
-**Build:** Advanced SQL (MySQL) cleaning and prioritization pipeline feeding a multi-star Power BI model with DAX measures across 5 provinces.
-**Result:** Turned 60,000+ raw records into a prioritized 25,000-row improvement backlog and two published, public-facing dashboards (national + provincial).
-`SQL` `Python` `Power BI` `DAX` `Data Modeling`
+## Toolbox
 
-### 🔹 [Knowledge Graph RAG with LlamaIndex](https://github.com/Bini-fish/Knowledge_Graph_RAG_With_LlamaIndex)
-**Problem:** Standard vector search misses how entities relate to each other — which matters for financial and market analysis.
-**Build:** RAG pipeline combining Neo4j knowledge-graph traversal with LlamaIndex vector retrieval; GPT-4o generates the final natural-language report.
-**Result:** A working graph-augmented RAG system, deployable against your own document set.
-`Python` `Neo4j` `LlamaIndex` `RAG`
+**Daily:** Python, SQL, BigQuery, Cloud Functions, Cloud Storage, Cloud Run, Pandas, scikit-learn, Looker Studio
+**Also:** Power BI, Google Earth Engine, Supabase/PostgreSQL, FastAPI, Docker, Neo4j, LlamaIndex
+**Learning:** Kafka, Spark, dbt
 
-### 🔹 [Handwritten Digit Generator (Conditional GAN)](https://github.com/Bini-fish/mnist-generator-app)
-**Problem:** Wanted a deployed, interactive proof of generative modeling — not just a training notebook.
-**Build:** Conditional GAN (generator + discriminator) trained from scratch on MNIST in PyTorch, deployed with Streamlit.
-**Result:** [Live app](https://mnist-generator-app-nokjarnuyxqxhywalprhkh.streamlit.app/) — pick any digit 0–9, get 5 unique generated images on demand.
-`PyTorch` `GANs` `Streamlit`
+## Off the keyboard
 
----
-
-## GitHub activity
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Bini-fish&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bini-fish&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165"/>
-</p>
+Distance runner (4th place, Lake Hawassa Half Marathon) and [photographer](https://instagram.com/bini.s_shots).
 
 ---
 
-## Beyond the code
-
-- **iCog Labs** — AI/ML Engineering Intern, working on autonomous logic-rule discovery from hypergraph data
-- **PCIC, Hawassa University (800+ members)** — President & AI/ML Curriculum Lead; designed a 19-lesson curriculum training 50+ developers, 87% retention
-- **Ethioware EdTech** — Generative AI Developer & Lead Data/ML Engineer, serving 7,000+ learners
-- 🏃 4th place, Lake Hawassa Half Marathon · 📸 [Photography](https://instagram.com/bini.s_shots)
-
----
-
-### Have a data problem worth solving? [Let's talk →](mailto:biniyamf.code@gmail.com)
+Open to data engineering and ML roles, internships and freelance work. **[biniyamf.code@gmail.com](mailto:biniyamf.code@gmail.com)**
